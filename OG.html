@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WebCare Center</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://img.icons8.com/ios-filled/32/maintenance.png"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="top">
+    <header class="hero-section">
+      <nav>
+        <div class="logo"><i class="fas fa-tools"></i>WebCare Center</div>
+        <ul>
+          <li>
+            <a href="#services"><i class="fas fa-cogs oa"></i> What We Do</a>
+          </li>
+          <li>
+            <a href="#process"
+              ><i class="fas fa-play-circle"></i> How It Works</a
+            >
+          </li>
+          <li>
+            <a href="#subscribe"
+              ><i class="fas fa-envelope"></i> Stay in Touch</a
+            >
+          </li>
+          <li>
+            <a href="#contact"><i class="fas fa-comment"></i> Say Hi</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="hero-text">
+        <h1>Let’s Make Your Website <span class="role"></span></h1>
+        <p>
+          Think of us as your website’s best friend — boosting SEO, speed, and
+          user vibes with care.
+        </p>
+        <a href="#contact" class="cta-button"
+          ><i class="fas fa-phone-alt"></i> Let’s Talk</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <section id="services" class="section">
+        <h2><i class="fas fa-concierge-bell"></i> How We Help</h2>
+        <div class="cards">
+          <div class="card">
+            <a href="seo.html" target="_blank">
+              <h3><i class="fas fa-search"></i> Get Found Online</h3>
+              <p>
+                We tune your site so search engines actually notice you. Hello,
+                page one!
+              </p></a
+            >
+          </div>
+          <div class="card">
+            <a href="speed.html" target="_blank">
+              <h3><i class="fas fa-tachometer-alt"></i> Speed Things Up</h3>
+              <p>
+                No one likes slow. We make your site fast, smooth, and snappy.
+              </p></a
+            >
+          </div>
+          <div class="card">
+            <a href="gamify.html" target="_blank">
+              <h3><i class="fas fa-heart"></i> Make It a Joy to Use</h3>
+              <p>
+                We fix the awkward stuff and polish your site’s flow so people
+                stick around.
+              </p></a
+            >
+          </div>
+          <div class="card">
+            <a href="responsive.html" target="_blank">
+              <h3><i class="fas fa-mobile-alt"></i> Mobile & Accessible</h3>
+              <p>
+                Your site should feel great on every screen and for every user.
+                We make sure it does.
+              </p></a
+            >
+          </div>
+          <div class="card">
+            <a href="threats.html" target="_blank">
+              <h3><i class="fas fa-shield-alt"></i> Lock It Down</h3>
+              <p>
+                Security check! We keep your website clean, safe, and solid.
+              </p></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="process" class="section">
+        <h2><i class="fas fa-gamepad"></i> Our Upgrade Process</h2>
+        <ol>
+          <li>
+            <strong>We Check Things Out:</strong> You show us your site. We
+            scan, poke, and take notes.
+          </li>
+          <li>
+            <strong>We Fix & Upgrade:</strong> We optimize your SEO, speed, UX,
+            and whatever else needs love.
+          </li>
+          <li>
+            <strong>You Level Up:</strong> Enjoy better rankings, happier users,
+            and a smoother site experience.
+          </li>
+        </ol>
+      </section>
+
+      <section id="subscribe" class="section subscribe-section">
+        <h2><i class="fas fa-mail-bulk"></i> Stay in the Loop</h2>
+        <p>
+          Tips, updates, and insights — once a month, straight to your inbox. No
+          fluff.
+        </p>
+        <form>
+          <input
+            type="text"
+            name="name"
+            placeholder="What's your name?"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="And your email?"
+            required
+          />
+          <button type="submit">
+            <i class="fas fa-paper-plane"></i> Sign Me Up
+          </button>
+        </form>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <h2><i class="fas fa-comment-alt"></i> Let’s Chat</h2>
+        <p>
+          Got a website? Need a hand? Drop us a message and we’ll help make it
+          shine.
+        </p>
+        <form>
+          <input type="text" name="name" placeholder="Your name" required />
+          <input type="email" name="email" placeholder="Your email" required />
+          <textarea
+            name="message"
+            placeholder="Tell us what you're hoping to fix or improve..."
+            required
+          ></textarea>
+          <button type="submit">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        <i class="fas fa-rocket"></i> Built by a man who cares about your
+        website. © 2025 WebCare Center
+      </p>
+      <a href="#top"><i class="fa-solid fa-arrow-up fa-lg butt"></i></a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script
+      src="https://kit.fontawesome.com/58a810656e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var typeData = new Typed(".role", {
+        strings: ["Awesome", "Fast", "User Friendly", "Awesome"],
+        typeSpeed: 80,
+        backSpeed: 75,
+        backDelay: 800,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
